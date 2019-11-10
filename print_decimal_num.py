@@ -2,9 +2,9 @@ def decimal(n, curr = "", a = 0):
     for i in range(a):
         print(" ", end=" ")
     if n != 0:
-        print("binary("+str(n)+", "+str(curr)+", "+str(a)+"):")
+        print("decimal("+str(n)+", "+str(curr)+", "+str(a)+"):")
     else:
-        print("binary("+str(n)+", "+str(curr)+", "+str(a)+"):", end=" ")
+        print("decimal("+str(n)+", "+str(curr)+", "+str(a)+"):", end=" ")
 
     if n == 0:
         print(curr)
