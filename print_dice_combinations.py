@@ -7,9 +7,9 @@ def dicePrint(n, lis, a = 0):
     for i in range(a):
         print(" ", end=" ")
     if n != 0:
-        print("binary("+str(n)+", "+str(lis)+", "+str(a)+"):")
+        print("dicePrint("+str(n)+", "+str(lis)+", "+str(a)+"):")
     else:
-        print("binary("+str(n)+", "+str(lis)+", "+str(a)+"):", end=" ")
+        print("dicePrint("+str(n)+", "+str(lis)+", "+str(a)+"):", end=" ")
 
     if n == 0:
         print(lis)
